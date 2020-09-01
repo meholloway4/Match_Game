@@ -1,4 +1,3 @@
-#this is may change
 import pygame
 from pygame.locals import (
     K_ESCAPE,

@@ -14,8 +14,8 @@ pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
 
-# pygame.mixer.music.load()
-# pygame.mixer.music.play(loops=-1)
+pygame.mixer.music.load('Rhythm.mp3')
+pygame.mixer.music.play(loops=-1)
 win_point = pygame.mixer.Sound("Sounds/coins_dropped_1.ogg")
 click = pygame.mixer.Sound("Sounds/click_cancel_china.wav")
 
